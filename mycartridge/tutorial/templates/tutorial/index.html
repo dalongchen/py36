@@ -1,0 +1,25 @@
+{% load static %}
+{% load render_table from django_tables2 %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+{% render_table table %}
+
+{% comment %}
+{% render_table object_list %}
+{% if latest_question_list %}
+<ul>
+        {% for question in latest_question_list %}
+        <li> <a href="{% url 'stock:detail' question.id %}">{{ question.code }}</a>
+            <ul>
+            {% for city in question %}
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No polls are available.</p>
+{% endif %}
+
+<img src="{% static 'images/background.jpg' %}">
+{% endcomment %}

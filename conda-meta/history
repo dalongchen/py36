@@ -1,0 +1,11 @@
+==> 2019-12-29 00:02:27 <==
+# cmd: D:\ana\Scripts\conda create -n py36 python=3.6
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::certifi-2016.2.28-py36_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::pip-9.0.1-py36_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::python-3.6.2-0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::setuptools-36.4.0-py36_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::vc-14-0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::vs2015_runtime-14.0.25420-0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::wheel-0.29.0-py36_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free::wincertstore-0.2-py36_0
+# create specs: python 3.6*

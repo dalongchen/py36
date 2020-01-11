@@ -1,0 +1,24 @@
+{% load static %}
+{% load render_table from django_tables2 %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'stock/style.css' %}">
+{% render_table object_list %}
+
+{% comment %}
+{% if latest_question_list %}
+<ul>
+        {% for question in latest_question_list %}
+        <li> <a href="{% url 'stock:detail' question.id %}">{{ question.code }}</a>
+            <ul>
+            {% for city in question %}
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No polls are available.</p>
+{% endif %}
+{% endcomment %}
+
+<img src="{% static 'images/background.jpg' %}">
